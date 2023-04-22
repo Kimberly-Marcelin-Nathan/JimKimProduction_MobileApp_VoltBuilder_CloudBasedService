@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Home | Jim Kim Production</title>
+    <link rel="icon" type="image/x-icon" href="https://static.wixstatic.com/media/023982_5f4ccda76b634e6ba453b2289389be10~mv2.png">
+</head>
+<body>
+    
+  <section class="showcase">
+    <header>
+      <a href="index.html"> <img src="https://static.wixstatic.com/media/023982_5f4ccda76b634e6ba453b2289389be10~mv2.png"style="width:70px;cursor:pointer;position:relative;"></a>
+      <!--<h2 class="logo">JIM KIM PRODUCTION</h2>-->
+      <div class="toggle"></div>
+    </header>
+    <video src="https://video.wixstatic.com/video/11062b_0f1e951461494c1894d86c9ab85a11cf/480p/mp4/file.mp4" muted loop autoplay></video>
+      
+    <div class="overlay"></div>
+      <div class="text" style="top:40px;">
+      <h2 style="font-size: 25px;text-align: center;">Welcome To</h2> 
+      <center><hr style= "width:50px;color: white;size:7; align: center; margin-top:12px; margin-bottom:12px"> </center>
+      <h3 style="font-size: 25px;text-align: center;">Jim Kim Production</h3>
+      <p style="text-align: center;">Sound Biz and Musictech</p>
+      <center><a href="about.html">Explore More</a></center>
+    </div>
+    <ul class="social">
+      <li><a href="https://www.facebook.com/Jimkimprod"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="https://twitter.com/jimkim_prod"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/jimkim_production/?utm_medium=copy_link"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="https://www.youtube.com/channel/UCjChynJHyhLFcgbKs5OVhvQ/featured">Subscribe</a></li>
+    <!--  <li><a href="#">Destination</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>-->
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+const showcase = document.querySelector('.showcase');
+
+menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('active');
+  showcase.classList.toggle('active');
+})
+  </script>
+</body></html>
